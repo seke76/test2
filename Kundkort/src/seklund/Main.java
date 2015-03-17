@@ -41,13 +41,16 @@ public class Main extends Application{
         hbox.setSpacing(10);   // Gap between nodes
    
         
-        Button buttonCurrent = new Button("Current");
-        buttonCurrent.setPrefSize(100, 20);
+        Button buttonNew = new Button("Ny kund");
+        buttonNew.setPrefSize(100, 20);
 
-        Button buttonProjected = new Button("Projected");
-        buttonProjected.setPrefSize(100, 20);
+        Button buttonSearch = new Button("Sök");
+        buttonSearch.setPrefSize(100, 20);
         
-        hbox.getChildren().addAll(buttonCurrent, buttonProjected);
+        Button buttonList = new Button("List alla");
+        buttonList.setPrefSize(100, 20);
+        
+        hbox.getChildren().addAll(buttonNew, buttonSearch, buttonList);
         pane.add(hbox, 0, 1);
 		
 		
