@@ -50,7 +50,7 @@ public class LayoutSample extends Application {
     public void start(Stage stage) {
 
 
-// Use a border pane as the root for scene
+// Use a border pane as the root for scene.
         BorderPane border = new BorderPane();
         
         HBox hbox = addHBox();
