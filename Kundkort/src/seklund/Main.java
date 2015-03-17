@@ -34,7 +34,7 @@ public class Main extends Application{
 
 		Text headerLabel = new Text("Kundkort");
 		headerLabel.setFont(Font.font("Arial", FontWeight.NORMAL,35));
-		pane.add(headerLabel, 0, 0);
+		pane.add(headerLabel, 0, 0, 3, 1);
 		
 		HBox hbox = new HBox();
         hbox.setPadding(new Insets(15, 12, 15, 12));
